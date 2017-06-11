@@ -1,6 +1,6 @@
 # message
 
-> message by vue.js
+> A Vue.js project
 
 ## Build Setup
 

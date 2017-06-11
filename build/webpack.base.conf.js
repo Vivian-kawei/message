@@ -1,10 +1,10 @@
-var path = require('path')
-var utils = require('./utils')
-var config = require('../config')
-var vueLoaderConfig = require('./vue-loader.conf')
+let path = require('path');
+let utils = require('./utils');
+let config = require('../config');
+let vueLoaderConfig = require('./vue-loader.conf');
 
-function resolve (dir) {
-  return path.join(__dirname, '..', dir)
+function resolve(dir) {
+  return path.join(__dirname, '..', dir);
 }
 
 module.exports = {
@@ -19,10 +19,15 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json', '.scss'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src')
+      'src': resolve('src'),
+      'assets': resolve('src/assets'),
+      'common': resolve('src/common'),
+      'components': resolve('src/components'),
+      'pages': resolve('src/pages'),
+      'store': resolve('src/store')
     }
   },
   module: {
@@ -32,6 +37,7 @@ module.exports = {
         loader: 'eslint-loader',
         enforce: 'pre',
         include: [resolve('src'), resolve('test')],
+        exclude: [resolve('src/common/libs')],
         options: {
           formatter: require('eslint-friendly-formatter')
         }
@@ -64,4 +70,4 @@ module.exports = {
       }
     ]
   }
-}
+};
