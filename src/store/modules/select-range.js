@@ -3,50 +3,50 @@ export default {
     classList: {
       status: false,
       data: [{
-        className: '大一班',
+        className: '南山区',
         status: false,
         childres: [{
-          name: '陈晓妈妈',
+          name: '陈记三及第（科技园店）',
           head: '',
           status: false
         }, {
-          name: '苏小宝妈妈',
+          name: '贡茶',
           head: '',
           status: false
         }, {
-          name: '李晓强妈妈',
+          name: '一点点',
           head: '',
           status: false
         }]
       }, {
-        className: '大二班',
+        className: '福田区',
         status: false,
         childres: [{
-          name: '陈晓妈妈',
+          name: '大家乐',
           head: '',
           status: false
         }, {
-          name: '苏小宝妈妈',
+          name: 'KFC',
           head: '',
           status: false
         }, {
-          name: '李晓强妈妈',
+          name: '麦当劳',
           head: '',
           status: false
         }]
       }, {
-        className: '大三班',
+        className: '罗湖区',
         status: false,
         childres: [{
-          name: '陈晓妈妈',
+          name: '必胜客',
           head: '',
           status: false
         }, {
-          name: '苏小宝妈妈',
+          name: '海记',
           head: '',
           status: false
         }, {
-          name: '李晓强妈妈',
+          name: 'CoCo',
           head: '',
           status: false
         }]

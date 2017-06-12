@@ -64,32 +64,39 @@ export default {
     font-size: rem(32px);
   }
   .nav-notice {
+    text-align: center;
     .unconfirmed {
       display: inline-block;
-      margin: 0 rem(99px) 0 rem(102px);
+      margin: 0 14%;
+      width: 22%;
       border-bottom: rem(4px) solid #FDDD33;
     }
     .confirmed {
       display: inline-block;
-      margin: 0 rem(104px) 0 rem(99px);
+      width: 14%;
+      margin: 0 22%;
       color: #B4B5B6;
     }
   }
   .nav-apply {
     display: flex;
+    text-align: center;
     .not-join {
       display: inline-block;
-      margin: 0 rem(40px) 0 rem(42px);
+      margin: 0 7%;
+      width: 19.3%;
       border-bottom: rem(4px) solid #FDDD33;
     }
     .join {
       display: inline-block;
-      margin: 0 rem(42px);
+      margin: 0 7%;
+      width: 19.3%;
       color: #B4B5B6;
     }
     .reject {
       display: inline-block;
-      margin: 0 rem(42px) 0 rem(40px);
+      margin: 0 7%;
+      width: 19.3%;
       color: #B4B5B6;
     }
   }
@@ -119,8 +126,8 @@ export default {
       }
     }
     .bt-remind {
-      margin: rem(64px) rem(32px) rem(64px) rem(30px);
-      width: rem(688px);
+      margin: rem(64px) 2%;
+      width: 96%;
       height: rem(88px);
       font-size: rem(32px);
       border: 0;

@@ -20,11 +20,11 @@
       <span>删除</span>
     </div>
     <div class="btn-wrapper">
-      <div class="button-1" >
+      <div class="button-1" style="display:none">
         <button class="bt bt-reject">不参加</button>
         <button class="bt bt-join">参加</button>
       </div>
-      <router-link to="/message/affirm/unconfirmed-list" tag='button' class="button-2" style="display:none">查看确认详情</router-link>
+      <router-link to="/message/affirm/unconfirmed-list" tag='button' class="button-2" >查看确认详情</router-link>
     </div>
   </div>
 </template>

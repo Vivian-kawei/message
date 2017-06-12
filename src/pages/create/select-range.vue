@@ -150,9 +150,9 @@ export default {
       font-size: rem(32px);
     }
     .bt-next {
-      width: rem(688px);
+      width: 96%;
       height: rem(88px);
-      margin: 0 rem(30px) 0 rem(30px);
+      margin: 0 2%;
       border: 0;
       border-radius: rem(8px);
       background: #FDDD33;
